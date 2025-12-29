@@ -1,0 +1,7 @@
+{
+  "name": "Copy of WayTrust Travels - Smart India Trip Planner",
+  "description": "A futuristic, neon-styled smart travel agency website for exploring India with AI-powered trip customization and budget breakdowns.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

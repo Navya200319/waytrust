@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WayTrust Travels | India, Planned Smarter</title>
+    <meta name="description" content="Explore India with WayTrust Travels - a futuristic, smart travel agency featuring AI-powered trip planning and eco-friendly suggestions.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/66929a7522.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --neon-cyan: #00f3ff;
+            --neon-purple: #bc13fe;
+            --neon-blue: #0077ff;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+        body {
+            background-color: #020617;
+            color: #f8fafc;
+            font-family: 'Space Grotesk', sans-serif;
+            overflow-x: hidden;
+            letter-spacing: -0.01em;
+        }
+        h1, h2, h3, .font-orbitron {
+            font-family: 'Chakra Petch', sans-serif;
+            letter-spacing: -0.02em;
+        }
+        .neon-border {
+            border: 1px solid rgba(0, 243, 255, 0.4);
+            box-shadow: 0 0 5px rgba(0, 243, 255, 0.2);
+        }
+        .neon-text-cyan {
+            color: var(--neon-cyan);
+            text-shadow: 0 0 4px rgba(0, 243, 255, 0.4);
+        }
+        .neon-text-purple {
+            color: var(--neon-purple);
+            text-shadow: 0 0 4px rgba(188, 19, 254, 0.4);
+        }
+        .glass {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .glow-button:hover {
+            box-shadow: 0 0 12px rgba(0, 243, 255, 0.3);
+            transform: scale(1.02);
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #020617;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--neon-cyan);
+            border-radius: 4px;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "recharts": "https://esm.sh/recharts@^3.6.0",
+    "@google/genai": "https://esm.sh/@google/genai"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
