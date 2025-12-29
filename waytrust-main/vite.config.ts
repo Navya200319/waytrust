@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
-  const apiKey = env.GEMINI_API_KEY || 'AIzaSyAwQwGCwIPe-Ro3FmKP0a8LADxZl5h-13c';
+  const apiKey = env.GEMINI_API_KEY || 'AIzaSyBJahk9YIlE0yggLDGgd-YPisuojNq6j74';
 
   return {
     plugins: [react()],

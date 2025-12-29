@@ -1,7 +1,8 @@
 {
-  "name": "copy-of-waytrust-travels---smart-india-trip-planner",
+  "name": "waytrust-main",
+  "homepage": "https://naya200319.github.io/waytrust-main",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +11,8 @@
   },
   "dependencies": {
     "react": "^19.2.3",
-    "react-router-dom": "^7.11.0",
     "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0",
     "recharts": "^3.6.0",
     "@google/genai": "latest"
   },
